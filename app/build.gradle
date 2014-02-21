@@ -1,5 +1,4 @@
 apply plugin: 'android'
-
 android {
     compileSdkVersion 18
     buildToolsVersion "19.0.0"
@@ -15,4 +14,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+}
+
+dependencies {
+    compile files('/Users/enriquefigueroa/Documents/Mooc/Coursera/coursera-android/Examples/UILabs/libs/robotium-solo-5.0.2-SNAPSHOT.jar')
 }
